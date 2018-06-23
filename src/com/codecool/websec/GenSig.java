@@ -7,6 +7,11 @@ import java.security.*;
 
 public class GenSig {
 
+    /*
+    * Run from terminal: go to the WebsecSignatures/src directory then run
+    *       java com.codecool.websec.GenSig ~/Codecool/OOP/Week_2/WebsecSignatures/input.txt
+     */
+
     public static void main(String[] args) {
 
         /* Generate a DSA signature */

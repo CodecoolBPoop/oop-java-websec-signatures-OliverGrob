@@ -7,6 +7,11 @@ import java.security.spec.X509EncodedKeySpec;
 
 public class VerSig {
 
+    /*
+     * Run from terminal: go to the WebsecSignatures/src directory then run
+     *       java com.codecool.websec.VerSig suepk sig ~/Codecool/OOP/Week_2/WebsecSignatures/input.txt
+     */
+
     public static void main(String[] args) {
 
         /* Verify a DSA signature */
